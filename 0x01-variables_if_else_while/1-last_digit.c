@@ -1,11 +1,21 @@
 #include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+#include <time.h>
+
+#include <stdio.h>
+
+
+/**
+ * print a text according number
+ * Return: Always (success)
+ * 
+*/
+
 int main(void)
+
 {
+
+
         int n,a;
 
         srand(time(0));

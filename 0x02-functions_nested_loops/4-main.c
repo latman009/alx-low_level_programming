@@ -9,15 +9,14 @@ int main(void)
 {
     int r;
 
-    r = _isalpha('H');
+    r = _isalpa('H');
     _putchar(r + '0');
-    r = _isalpha('o');
+    r = _isalpa('o');
     _putchar(r + '0');
-    r = _isalpha(108);
+    r = _isalpa(108);
     _putchar(r + '0');
-    r = _isalpha(';');
+    r = _isalpa(';');
     _putchar(r + '0');
     _putchar('\n');
     return (0);
 }
-
